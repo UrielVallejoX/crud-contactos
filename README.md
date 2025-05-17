@@ -19,16 +19,20 @@ Este proyecto es una aplicación web desarrollada en PHP que permite realizar op
 ## Capturas de pantalla
 
 ### Inicio
-![image](https://github.com/user-attachments/assets/ee5207de-b5e3-481c-949e-5ed063da0596)
+![Inicio](https://github.com/user-attachments/assets/bd628090-f5bf-4eee-8c54-4b5a491df34c)
+
 
 ### Administrador
-![Crear](https://drive.google.com/file/d/1_CMbZNomTaOCcpGYtOMB5Gcj_KvuHEqd/view?usp=sharing)
+![PaginaAdministrador](https://github.com/user-attachments/assets/e148a3cf-aa7e-42db-b110-39d334ca63b7)
+
 
 ### Contactos
-![Editar](https://drive.google.com/file/d/1XmhL24gk7yZ8wSCH6B9Kqxa4-UVXSb_0/view?usp=sharing)
+![Contactos](https://github.com/user-attachments/assets/75d443d9-13da-4442-8789-ed38e90a50bf)
 
-### Eliminar contacto
-![Eliminar](https://drive.google.com/file/d/19cpZhY7sLc24_Tlrzsdsa1LMpvo6hoX1/view?usp=sharing)
+
+### Agregar contacto
+![Agregar](https://github.com/user-attachments/assets/8c0aab72-1598-4d8e-b5dd-3ee1b4453a00)
+
 
 ## Autor
 
