@@ -1,0 +1,189 @@
+/*
+Hoja de estilo responsivo y con transiciones
+Autor: Uriel
+*/
+
+:root {
+	--azul-claro: #e6f0fa;
+	--azul-oscuro: #2c3e50;
+	--azul-suave: #3498db;
+	--blanco: #ffffff;
+	--hover-azul: #5dade2;
+	--hover-blanco: #f0f8ff;
+	--sombra: 0 2px 8px rgba(0, 0, 0, 0.15);
+	--transicion: all 0.3s ease;
+}
+  
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+  
+body {
+	font-family: Arial, sans-serif;
+	background-color: var(--azul-claro);
+	color: var(--azul-oscuro);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+  
+/* Encabezado */
+header {
+	background-color: var(--blanco);
+	padding: 1em;
+	text-align: center;
+	box-shadow: var(--sombra);
+	transition: var(--transicion);
+}
+  
+header:hover {
+	background-color: var(--hover-blanco);
+}
+  
+header h1 {
+	font-size: 1.8em;
+	color: var(--azul-oscuro);
+}
+  
+img.logo {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 0.5em;
+}
+  
+/* Navegación */
+nav {
+	background-color: var(--azul-suave);
+	text-align: center;
+	padding: 0.7em;
+	transition: var(--transicion);
+}
+  
+nav:hover {
+	background-color: var(--hover-azul);
+}
+  
+nav a {
+	color: rgb(0, 28, 243);
+	text-decoration: none;
+	margin: 0 1em;
+	font-weight: bold;
+	transition: var(--transicion);
+}
+  
+nav a:hover {
+	color: var(--azul-claro);
+	text-decoration: underline;
+}
+  
+/* Contenido principal */
+main {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 1.5em;
+	gap: 1em;
+	flex: 1;
+}
+  
+/* Sección principal */
+section {
+	flex: 3;
+	background-color: var(--blanco);
+	padding: 1.5em;
+	border-radius: 10px;
+	box-shadow: var(--sombra);
+	min-height: 250px;
+	transition: var(--transicion);
+}
+  
+section:hover {
+	background-color: var(--hover-blanco);
+}
+  
+section h2 {
+	color: var(--azul-suave);
+	margin-bottom: 1em;
+}
+  
+/* Aside a la derecha */
+aside {
+	width: 220px;
+	height: 435px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: #a7fbfb; /* gris claro */
+	float: right;
+	border-radius: 10px;
+	box-shadow: var(--sombra);
+	transition: var(--transicion);
+}
+  
+aside:hover {
+	background-color: var(--hover-blanco);
+}
+  
+/* Párrafos */
+p {
+	margin-bottom: 1em;
+	line-height: 1.5em;
+	padding: 0.5em;
+	border-left: 5px solid var(--azul-suave);
+	background-color: #18cad0;
+	transition: var(--transicion);
+}
+  
+p:hover {
+	background-color: #e0f3ff;
+}
+  
+/* Footer */
+footer {
+	background-color: var(--azul-oscuro);
+	color: rgb(249, 29, 84);
+	text-align: center;
+	padding: 1em;
+	font-size: 0.9em;
+	transition: var(--transicion);
+}
+  
+footer:hover {
+	background-color: #1c2d40;
+}
+  
+/* Responsive */
+@media screen and (max-width: 768px) {
+	main {
+	  flex-direction: column;
+	}
+  
+	section, aside {
+	  width: 100%;
+	}
+  
+	nav a {
+	  display: block;
+	  margin: 0.5em 0;
+	}
+}
+  
+.tablaContactos th, .tablaContactos td {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0.5em 0.5em;
+	color: #3498db;
+	background-color: #e6f0fa;
+}
+
+input{
+	width: 50%;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #3498db;
+	padding: 0.5em;
+	background-color: aquamarine;
+	transition: var(--transicion);
+
+}
